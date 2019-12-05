@@ -16,17 +16,17 @@ Java Programming의 GUI를 이용하여 그림판을 직접 구현해본다.
 10) 글자입력
 
 ## 3. 참고사항
-<전체화면 구성도>
 ![image](https://user-images.githubusercontent.com/58457978/70211142-bdbc4200-1777-11ea-97c3-e2272aa54d4d.png)
+<전체화면 구성도>
 
 ## 4. 프로그램 설명
-# a. Draw 클래스
+### a. Draw 클래스
 Draw 클래스는 고유한 필드를 가지며 이 필드들을 PicturePanel 클래스에서  각각 그린 점, 선, 도형들이 벡터 vc 필드로 저장된다.
 
-# b. PicturePanel 클래스
+### b. PicturePanel 클래스
 메뉴바, 체크박스, 버튼, 컬러 다이얼로그 등 여러 가지 필드들이 존재하고, Draw 클래스의 객체를 Vector<Draw>형 객체인 vc에 하나씩 저장한다.
   
-# c. ExamOne 클래스
+### c. ExamOne 클래스
 PicturePanel 클래스의 객체 pp를 생성하여 위에 구현한 클래스들을 실행한다.
 
 ## 5. 결과
